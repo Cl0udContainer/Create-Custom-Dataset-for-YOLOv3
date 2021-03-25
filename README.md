@@ -3,7 +3,7 @@ Pycharm과 labelImg 툴을 이용하여 YOLOv3용 Custom Dataset을 만들어 �
 *사용된 이미지는 저작권과 관계 없는 본인 사진임을 밝힙니다.*
 ## Pycharm Project 생성   
 <img src="https://user-images.githubusercontent.com/81284736/112413185-1d6ea000-8d63-11eb-8509-e4a9ad52242a.jpg" width="300" height="300">   
-원하는 폴더에 '영어 이름으로 된'프로젝트를 생성해 준다.   
+원하는 폴더에 **영어 이름으로 된** 프로젝트를 생성해 준다.   
 
 ## labelImg 설치
 <pre><code>pip install labelImg</pre></code>
