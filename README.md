@@ -1,4 +1,5 @@
 Pycharm과 labelImg 툴을 이용하여 YOLOv3용 Custom Dataset을 만들어 보자.   
+이미지가 안 보일 경우 클릭해서 크게 볼 것을 권장한다.
 ## Pycharm Project 생성   
 <img src="https://user-images.githubusercontent.com/81284736/112413185-1d6ea000-8d63-11eb-8509-e4a9ad52242a.jpg" width="300" height="300">   
 원하는 폴더에 '영어 이름으로 된'프로젝트를 생성해 준다.   
@@ -48,6 +49,5 @@ Classes파일에는 한 행에 'Class가 등록된 순서'대로 Classs이름이
 
 ## 마치며
 운이 좋으면 프로젝트에서 원하는 Data Set을 Google에서 제공하는 Open Image Dataset을 이용할 수도 있고, 혹은 구글링을 통해 얻을 수 있다.   
-나 역시 프로젝트를 위해 필요한 이미지들 (남자, 여자얼굴 / 스마트폰) Open Image Dataset에서 구할 수 있었으나, 대부분의 사진이 백인으로 이루어져 있어, 학습시킨 YOLOv3가 동아시아 사람들을 인식할 때 정확도가 매우 낮았기 때문에, 약 20000장의 이미지를 Instagram과 Google에서 크롤링 하여 직접 Dataset을 만들 수 밖에 없었다.   
-하루 날잡고 5~6시간?정도 걸린 것 같았다.   
+나 역시 프로젝트를 위해 필요한 이미지들 (남자, 여자얼굴 / 스마트폰) Open Image Dataset에서 구할 수 있었으나, 대부분의 사진이 백인으로 이루어져 있어, 학습시킨 YOLOv3가 동아시아 사람들을 인식할 때 정확도가 매우 낮았기 때문에, 약 20000장의 이미지를 Instagram과 Google에서 크롤링 하여 직접 Dataset을 만들 수 밖에 없었다. 하루 날잡고 5~6시간?정도 걸린 것 같았다.   
 건승을 빈다.
