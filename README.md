@@ -39,5 +39,15 @@ Create\nRectBox 버튼을 클릭하면 사진처럼 경계선을 표시할 수 �
  <img src=https://user-images.githubusercontent.com/81284736/112418709-5ad82b00-8d6d-11eb-8805-bd30fd22c908.jpg width="300" height="300">   
  
  데이터셋에 있는 모든 사진들에 대해 Bounding Box작업을 마치고 해당폴더에 가보면 이런 식으로 Classes파일과, 사진파일, 사진파일과 이름이 같은 txt파일이 존재하는 것을 확인할 수 있다.   
-<img src=https://user-images.githubusercontent.com/81284736/112419813-69274680-8d6f-11eb-8ced-fd5694146497.jpg width="300" height="300"><img src=https://user-images.githubusercontent.com/81284736/112420117-fff40300-8d6f-11eb-89ec-f6ec7cc706d8.jpg width="300" height="300">
- 
+<img src=https://user-images.githubusercontent.com/81284736/112419813-69274680-8d6f-11eb-8ced-fd5694146497.jpg width="300" height="300"><img src=https://user-images.githubusercontent.com/81284736/112420117-fff40300-8d6f-11eb-89ec-f6ec7cc706d8.jpg width="300" height="300">   
+
+### Classes파일
+Classes파일에는 한 행에 'Class가 등록된 순서'대로 Classs이름이 지정되어 있다.   
+### txt파일
+한 줄에 각 객체마다 (txt파일과 이름이 같은 사진 지정한 객체의 Classes 파일안에서의 순서)&nbsp;&nbsp;&nbsp; (사진에서의 Bounding Box의 4꼭지점의 좌표)로 이루어진 정보가 기록된다.   
+
+## 마치며
+운이 좋으면 프로젝트에서 원하는 Data Set을 Google에서 제공하는 Open Image Dataset을 이용할 수도 있고, 혹은 구글링을 통해 얻을 수 있다.   
+나 역시 프로젝트를 위해 필요한 이미지들 (남자, 여자얼굴 / 스마트폰) Open Image Dataset에서 구할 수 있었으나, 대부분의 사진이 백인으로 이루어져 있어, 학습시킨 YOLOv3가 동아시아 사람들을 인식할 때 정확도가 매우 낮았기 때문에, 약 20000장의 이미지를 Instagram과 Google에서 크롤링 하여 직접 Dataset을 만들 수 밖에 없었다.   
+하루 날잡고 5~6시간?정도 걸린 것 같았다.   
+건승을 빈다.
