@@ -19,5 +19,25 @@ save format을 'YOLO'로 변경한 후, Open Dir을 클릭해 Dataset을 만들 
 
 ## 각 사진마다 Bounding Box를 지정하기
 <img src=https://user-images.githubusercontent.com/81284736/112416012-3037a380-8d68-11eb-8abd-97c39724c2f7.jpg width="300" height="300">   
-각 사진에서 YOLO가 탐지하길 원하는 객체에 Bounding Box를 지정한다.   
-Create\nRectBox 버튼을 클릭하면 사진처럼 경계선을 표시할 수 있고, 인식하려는 객체에 최대한 가까이(위 경우는 내 얼굴) 경계선을 지정한다.
+
+각 사진에서 YOLO가 탐지하길 원하는 객체에 Bounding Box를 지정한다.          
+Create\nRectBox 버튼을 클릭하면 사진처럼 경계선을 표시할 수 있고, 인식하려는 객체(위 경우에는 내 얼굴)에 최대한 가까이 경계선을 지정한다.   
+
+<img src=https://user-images.githubusercontent.com/81284736/112417179-5cecba80-8d6a-11eb-9f88-66b4cd8fdfff.jpg width="300" height="300">   
+
+인식하려는 Class의 첫 번째 객체인 경우, Class이름을 정해 주어야 한다.   
+위 경우는 '남자 얼굴'이므로,  'Man'이라 지정하였다.   
+ Bounding Box를 저장하기 위해 Save버튼을 누른 후, Next Image버튼을 눌러 다음 사진으로 넘어간다.   
+ 
+ <img src=https://user-images.githubusercontent.com/81284736/112418004-01bbc780-8d6c-11eb-9d28-077753da1e24.jpg width="300" height="300"><img src=https://user-images.githubusercontent.com/81284736/112418294-8e668580-8d6c-11eb-9260-ec81915a0d70.jpg width="300" height="300">   
+ 
+ 다음 사진에는 인식하고자 하는 두 개의 객체(남자 얼굴, 스마트폰)이 존재한다.   
+ 남자 얼굴에 Bounding Box를 설정하면, 이전 사진에서 생성한 Class인 Man을 클릭하여 지정할 수 있다.   
+ 스마트폰의 경우는, 새로운 Class인 'Smart Phone'을 생성해서 지정해주어야 한다.   
+ 이런식으로 새로운 Class는 해당 사진에서 직접 생성하여 지정할 수 있다.
+ 
+ <img src=https://user-images.githubusercontent.com/81284736/112418709-5ad82b00-8d6d-11eb-8805-bd30fd22c908.jpg width="300" height="300">   
+ 
+ 데이터셋에 있는 모든 사진들에 대해 Bounding Box작업을 마치고 해당폴더에 가보면 이런 식으로 Classes파일과, 사진파일, 사진파일과 이름이 같은 txt파일이 존재하는 것을 확인할 수 있다.   
+<img src=https://user-images.githubusercontent.com/81284736/112419813-69274680-8d6f-11eb-8ced-fd5694146497.jpg width="300" height="300"><img src=https://user-images.githubusercontent.com/81284736/112419938-a25fb680-8d6f-11eb-8f48-6c183f54ae6e.jpg width="300" height="300">
+ 
