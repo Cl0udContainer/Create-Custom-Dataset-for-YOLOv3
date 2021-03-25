@@ -39,5 +39,5 @@ Create\nRectBox 버튼을 클릭하면 사진처럼 경계선을 표시할 수 �
  <img src=https://user-images.githubusercontent.com/81284736/112418709-5ad82b00-8d6d-11eb-8805-bd30fd22c908.jpg width="300" height="300">   
  
  데이터셋에 있는 모든 사진들에 대해 Bounding Box작업을 마치고 해당폴더에 가보면 이런 식으로 Classes파일과, 사진파일, 사진파일과 이름이 같은 txt파일이 존재하는 것을 확인할 수 있다.   
-<img src=https://user-images.githubusercontent.com/81284736/112419813-69274680-8d6f-11eb-8ced-fd5694146497.jpg width="300" height="300"><img src=https://user-images.githubusercontent.com/81284736/112419938-a25fb680-8d6f-11eb-8f48-6c183f54ae6e.jpg width="300" height="300">
+<img src=https://user-images.githubusercontent.com/81284736/112419813-69274680-8d6f-11eb-8ced-fd5694146497.jpg width="300" height="300"><img src=https://user-images.githubusercontent.com/81284736/112420117-fff40300-8d6f-11eb-89ec-f6ec7cc706d8.jpg width="300" height="300">
  
