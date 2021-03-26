@@ -1,4 +1,4 @@
-Pycharm과 labelImg 툴을 이용하여 YOLOv3용 Custom Dataset을 만들어 보자.   
+Pycharm과 labelImg 툴을 이용하여 YOLOv5용 Custom Dataset을 만들어 보자.   
 이미지가 안 보일 경우 클릭해서 크게 볼 것을 권장한다.   
 *사용된 이미지는 저작권과 관계 없는 본인 사진임을 밝힙니다.*
 ## Pycharm Project 생성   
